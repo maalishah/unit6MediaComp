@@ -448,4 +448,20 @@ public class Picture extends SimplePicture
         }
     }
   }
+  public void cropAndCopy( Picture sourcePicture, int startSourceRow, int endSourceRow,
+            int startSourceCol, int endSourceCol, int startDestRow, int startDestCol )
+  {
+      int rowCount = 0;
+      int colCount = 0;
+      Pixel thisPixel = null;
+      Pixel[][] pixels = this.getPixels2D();
+      Pixel[][] pixels2 = sourcePicture.getPixels2D();
+      for (int row = startSourceRow; row <= endSourceRow; row++)
+      {
+          for (int col = startSourceCol; col <= endSourceCol; col++)
+          {
+              t
+          }
+      }
+  }
 } // this } is the end of class Picture, put all new methods before this
