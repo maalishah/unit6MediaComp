@@ -527,5 +527,6 @@ public class Picture extends SimplePicture
         Picture canvas = new Picture(646, 1200);
         canvas.collage();
         canvas.explore();
+        canvas.write("MyCollage.jpg");
     }
 } // this } is the end of class Picture, put all new methods before this
