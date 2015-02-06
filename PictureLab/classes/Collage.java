@@ -22,6 +22,7 @@ public class Collage
         Picture rcf2 = new Picture("rcf.jpg");
         Picture rcf3 = new Picture("rcf.jpg");
         Picture rcf4 = new Picture("rcf.jpg");
+        canvas.explore();
     }
 
     
